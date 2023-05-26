@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Development practice\\Jenkins\\jenkins-cicd-practice\\net-core-api\\src\\src.csproj": {}
+  },
+  "projects": {
+    "F:\\Development practice\\Jenkins\\jenkins-cicd-practice\\net-core-api\\src\\src.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Development practice\\Jenkins\\jenkins-cicd-practice\\net-core-api\\src\\src.csproj",
+        "projectName": "src",
+        "projectPath": "F:\\Development practice\\Jenkins\\jenkins-cicd-practice\\net-core-api\\src\\src.csproj",
+        "packagesPath": "C:\\Users\\Truefill\\.nuget\\packages\\",
+        "outputPath": "F:\\Development practice\\Jenkins\\jenkins-cicd-practice\\net-core-api\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Truefill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
